@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@drawable/item_background"
+    android:layout_marginBottom="4dp">
+
+
+<TextView
+    android:id="@+id/tvHabitName"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Habit Name" />
+
+<Button
+    android:id="@+id/btnEdit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Edit" />
+
+<Button
+    android:id="@+id/btnDelete"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Delete" />
+</LinearLayout>
